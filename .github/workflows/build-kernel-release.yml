@@ -663,7 +663,7 @@ jobs:
 
       - name: 🔨 Build Kernel
         id: build
-        uses: WildKernels/OnePlus_KernelSU_SUSFS/.github/actions/build-kernel@main
+        uses: CHALAZITO/OnePlus_KernelSU_SUSFS/.github/actions/build-kernel@main
         with:
           op_config_json: ${{ steps.prepare_config.outputs.config_json }}
           ksu_type: ${{ matrix.ksu_type }}
